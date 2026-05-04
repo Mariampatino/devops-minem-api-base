@@ -35,6 +35,8 @@ Swagger disponible en: http://localhost:5000/swagger
 dotnet test
 ```
 
+
+
 ## Endpoints
 
 | Método | Ruta            | Descripción              |
@@ -47,5 +49,7 @@ dotnet test
 
 ##Historia
 > Modificado por Martín Valenzuela en el Laboratorio 2.
-> Modificado por Maria Patiño en el Laboratorio 4 . Maria Patiño
+> Modificado por Maria Patiño en el Laboratorio 4 . Maria Patiño CCoica
+> sssss
+> ddddd 
 
