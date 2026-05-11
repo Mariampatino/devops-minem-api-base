@@ -49,7 +49,32 @@ dotnet test
 
 ##Historia
 > Modificado por Martín Valenzuela en el Laboratorio 2.
+<<<<<<< HEAD
 > Modificado por Maria Patiño en el Laboratorio 4 . Maria Patiño CCoica
 > sssss
 > ddddd 
+=======
+> Modificado por Maria Patiño en el Laboratorio 2.
+## API Reference
+
+### Modelo de datos: User
+| Campo    | Tipo   | Requerido | Descripción          |
+|----------|--------|-----------|----------------------|
+| Id       | int    | Auto      | Identificador único  |
+| Nombre   | string | Sí        | Nombre completo      |
+| Email    | string | Sí        | Email único          |
+
+### Endpoints disponibles
+| Método | Ruta              | Descripción                    |
+|--------|-------------------|--------------------------------|
+| GET    | /api/Users        | Listar todos los usuarios      |
+| POST   | /api/Users        | Crear nuevo usuario            |
+
+## Ejecutar localmente
+```bash
+dotnet run --project src/DevOpsMinem.API --urls http://localhost:5000
+```
+>> modificado por Maria Patiño
+
+>>>>>>> a93c1aff23fefc7ac5c3957017dc077f17ca6dbe
 
