@@ -33,7 +33,6 @@ jobs:
           name: api-release-${{ github.run_number }}
           path: ./publish
           retention-days: 7
-
   test:
     needs: build
     strategy:
@@ -62,4 +61,3 @@ jobs:
         with:
           name: coverage-${{ matrix.os }}-${{ github.run_number }}
           path: ./coverage
-
