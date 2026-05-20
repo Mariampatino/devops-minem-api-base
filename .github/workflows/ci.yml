@@ -33,6 +33,7 @@ jobs:
           name: api-release-${{ github.run_number }}
           path: ./publish
           retention-days: 7
+
   test:
     needs: build
     strategy:
